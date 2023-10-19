@@ -43,6 +43,16 @@
     letter-spacing: 1px;
 }
 
+.split {
+    width: 20px;
+}
+
+.introBtnFrame {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
 .btn {
     background: white;
     margin: 1rem 0;
