@@ -4,6 +4,7 @@ import 'react-typed/dist/animatedCursor.css'
 import './intro.css';
 import bg from '../../assets/manfat2.png';
 import btnImg from '../../assets/hireme2.gif';
+import downloadImg from '../../assets/download.gif';
 import myCV from '../../assets/myCV.pdf';
 import { Link } from 'react-scroll';
 
@@ -15,7 +16,7 @@ const Intro = () => {
             <span className='hello'>Hello,</span>
             <span className='introText'>I'm <span className='introName'>Phyoe Tay Zar Minn</span> <br />
             </span>
-            <Typed strings={['Software Developer', 'Solution Architect', 'Freelancer']} typeSpeed={40} backSpeed={50} backDelay={2000} loop></Typed>
+            <Typed strings={['Solution Architect', 'Software Developer', 'Freelancer']} typeSpeed={40} backSpeed={50} backDelay={2000} loop></Typed>
             <span className='typed' data-typed-items='Software Developer, Solution Architect'></span>
             <p className='introPara'>I am a result-driven, passionate and skilled software development expert</p>
             <div className='introBtnFrame'>
@@ -24,7 +25,7 @@ const Intro = () => {
                 }}><img className='btnImg' src={btnImg} alt='Hire Me' />Hire Me</button></Link>
                 <div className='split'></div>
               <a href={myCV} download>
-                <button className='btn'>Download CV</button>
+                <button className='btn'><img className='btnImg' src={downloadImg} alt='Download CV' />Download CV</button>
               </a>
             </div>     
         </div>

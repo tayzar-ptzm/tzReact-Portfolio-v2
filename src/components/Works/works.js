@@ -1,6 +1,7 @@
 import React from 'react'
 import './works.css';
-import Portfolio1 from '../../assets/project-1.png';
+import SeeMore from '../../assets/seemore.gif';
+import Portfolio1 from '../../assets/integralsolution.jpeg';
 import Portfolio2 from '../../assets/project-2.jpg';
 import Portfolio3 from '../../assets/project-3.jpg';
 import Portfolio4 from '../../assets/fareast-portfolio.jpeg';
@@ -22,7 +23,7 @@ const Works = () => {
           <img src={Portfolio5} alt='' className='worksImg' />
           <img src={Portfolio6} alt='' className='worksImg' />
         </div>
-        <button className='worksBtn'>See More</button>
+        <button className='worksBtn'><img className='btnImg' src={SeeMore} alt='See More' />See More</button>
     </section>
   );
 }

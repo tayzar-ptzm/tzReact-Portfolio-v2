@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact.css';
-import Walmart from '../../assets/walmart.png';
-import Microsoft from '../../assets/microsoft.png';
+import osbay from '../../assets/Osbay.png';
+import nhn from '../../assets/nhn.jpeg';
 import Facebook from '../../assets/facebook.png';
 import Adobe from '../../assets/adobe.png';
 import FacebookIcon from '../../assets/facebook-icon.png';
@@ -19,8 +19,8 @@ const Contact = () => {
                 Some of the notable companies I have worked with includes,
             </p>
             <div className='clientImgs'>
-                <img src={Walmart} alt='Clients' className='clientImg' />
-                <img src={Microsoft} alt='Clients' className='clientImg' />
+                <img src={osbay} alt='Clients' className='clientImg' />
+                <img src={nhn} alt='Clients' className='clientImg' />
                 <img src={Facebook} alt='Clients' className='clientImg' />
                 <img src={Adobe} alt='Clients' className='clientImg' />
             </div>
